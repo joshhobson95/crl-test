@@ -88,5 +88,37 @@ width: 35vw;
     width: 70vw;
 }
 .global_bottom img{
-width: 20vw;
+width: 40vw;
+}
+.home_email_form_shell{
+    display: flex;
+    justify-content: center;
+}
+.home_email_form{
+    background-color: #0B8F99;
+    padding: 4rem;
+    margin: 1rem;
+    color: white;
+    font-family: Kaisei Decol;
+    border-radius: 10px;
+}
+.home_email_form button{
+    font-family: Kaisei Decol;
+    background-color: #57558C;
+    color: white;
+    padding: 1rem;
+    border: none;
+    height: 3rem;
+    width: 7rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.home_email_div{
+    background-image: linear-gradient( rgba(255, 255, 255, 1), rgba(87, 85, 140, 0.58));
+}
+.booksplash{
+    width: 80vw;
+}
+.booksplash_shell{
+    padding-top: 5rem;
 }

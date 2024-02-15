@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Container, TextField, Button, Box } from '@mui/material';
 import './Home.css';
 import ladder from '../assets/lisa-yount-6R_vtAyh2EY-unsplash.jpg';
 import Learn from '../assets/Learn.png'
@@ -10,6 +11,7 @@ import maps2 from '../assets/maps2.png'
 import maps3 from '../assets/maps3.png'
 import maps4 from '../assets/maps4.png'
 import maps5 from '../assets/maps5.png'
+import booksplash from '../assets/booksplash.png'
 
 function Home() {
   const [posts, setPosts] = useState([]);
@@ -27,8 +29,15 @@ function Home() {
   }, []);
   console.log(posts)
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+  };
+
+
 
   return (
+    
     <div className='home_outer_container'>
       <div className='home_top'>
         <div>
@@ -133,8 +142,39 @@ In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincid
     <h4>And remote from anywhere around the World</h4>
     <img src={maps2}/>
   </div>
-
 </div>
+</div>
+
+<div className='home_email_div'>
+
+  <div className='home_email_form_shell'>
+  <form onSubmit={handleSubmit} className='home_email_form'>
+    <h2>Join Our Email List!</h2>
+
+        <div>
+          <label htmlFor="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" />
+        </div>
+        <div>
+          <label htmlFor="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" />
+        </div>
+        <div>
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <button type="submit" >Submit</button>
+      </form>
+
+  </div>
+
+
+
+  
+  <div className='booksplash_shell'>
+<img src={booksplash} className='booksplash' />
+  </div>
+
 </div>
 
 
