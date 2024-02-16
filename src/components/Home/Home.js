@@ -12,6 +12,7 @@ import maps3 from '../assets/maps3.png'
 import maps4 from '../assets/maps4.png'
 import maps5 from '../assets/maps5.png'
 import booksplash from '../assets/booksplash.png'
+import yellowsmall from '../assets/paint/yellowpaint.png'
 
 function Home() {
   const [posts, setPosts] = useState([]);
@@ -58,19 +59,19 @@ function Home() {
 <div className='blog_section'>
         <div className='blog_block'>
           <h2>This Week's Blog</h2>
-          <img />
+          <img alt=''/>
           <h2>The Story Untold</h2>
           <p>In vestibulum vestibulum posuere. Nulla augue velit, interdum a ultrices sit amet, rhoncus vitae nisi....</p>
         </div>
         <div className='blog_block'>
           <h2>This Week's Blog</h2>
-          <img />
+          <img alt=''/>
           <h2>The Story Untold</h2>
           <p>In vestibulum vestibulum posuere. Nulla augue velit, interdum a ultrices sit amet, rhoncus vitae nisi....</p>
         </div>
         <div className='blog_block'>
           <h2>This Week's Blog</h2>
-          <img />
+          <img alt=''/>
           <h2>The Story Untold</h2>
           <p>In vestibulum vestibulum posuere. Nulla augue velit, interdum a ultrices sit amet, rhoncus vitae nisi....</p>
         </div>
@@ -84,19 +85,19 @@ function Home() {
 <div className='listen_learn_watch'>
  <div className='home_links'>
   <h2>Learn</h2>
-  <img src={Learn} />
+  <img src={Learn} alt='' />
   <p>Check out our Online Courses</p>
 
  </div>
  <div className='home_links'>
   <h2>Listen</h2>
-  <img src={Listen}/>
+  <img src={Listen} alt=''/>
   <p>Listen to our Podcast</p>
 
  </div>
  <div className='home_links'>
   <h2>Watch</h2>
-  <img src={Watch}/>
+  <img src={Watch} alt=''/>
   <p>Watch Videos from CRL</p>
 
  </div>
@@ -104,15 +105,17 @@ function Home() {
 </div>
 
 <div className='CRL_for_all'>
-  <h2>RelationaLearning for All</h2>
+<div className='relationalforall'>
+  <h2>RelationaLearning for <span className='underline'>All</span></h2>
+</div>
   <div className='CRL_for_all_top'>
-    <img src={boardroom} />
+    <img src={boardroom} alt=''/>
     <h3>From the board room...</h3>
     <p>Morbi pharetra auctor leo, a porta elit porta non. In porta ipsum id magna interdum, eget molestie magna fermentum. Etiam a rutrum nulla. Suspendisse tempor porta diam at aliquam. Proin eget elit felis. Nam rutrum nibh ac tellus ullamcorper, id varius augue consequat. Suspendisse potenti. Maecenas nec feugiat mauris, a sodales diam. In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincidunt, id ullamcorper felis interdum. Duis vel faucibus purus.</p>
   </div>
 
   <div className='CRL_for_all_bottom'>
-    <img src={kids} />
+    <img src={kids} alt=''/>
     <h3>...To the classrom</h3>
     <p>Morbi pharetra auctor leo, a porta elit porta non. In porta ipsum id magna interdum, eget molestie magna fermentum. Etiam a rutrum nulla. Suspendisse tempor porta diam at aliquam. Proin eget elit felis. Nam rutrum nibh ac tellus ullamcorper, id varius augue consequat. Suspendisse potenti. Maecenas nec feugiat mauris, a sodales diam. In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincidunt, id ullamcorper felis interdum. Duis vel faucibus purus.</p>
   </div>
@@ -128,19 +131,19 @@ In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincid
 <div className='global_bottom'>
   <div>
     <h4>Southwestern USA</h4>
-    <img src={maps3}/>
+    <img src={maps3} alt=''/>
   </div>
   <div>
     <h4>United Kingdom</h4>
-    <img src={maps4}/>
+    <img src={maps4} alt=''/>
   </div>
   <div>
     <h4>Australia</h4>
-    <img src={maps5}/>
+    <img src={maps5} alt=''/>
   </div>
   <div>
     <h4>And remote from anywhere around the World</h4>
-    <img src={maps2}/>
+    <img src={maps2} alt=''/>
   </div>
 </div>
 </div>
@@ -172,7 +175,7 @@ In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincid
 
   
   <div className='booksplash_shell'>
-<img src={booksplash} className='booksplash' />
+<img src={booksplash} className='booksplash' alt=''/>
   </div>
 
 </div>

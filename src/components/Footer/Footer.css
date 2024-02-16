@@ -1,0 +1,57 @@
+.footer_outer_shell{
+    background-color: #0B8F99;
+    font-family: Kaisei Decol;
+    padding-bottom: 3rem;
+}
+.footer_logo h2{
+    color: #FDC677;
+    font-weight: 400;
+    padding-bottom: 3rem;
+}
+.footer_logo img{
+    width: 80vw;
+}
+.contact_us_footer_button{
+    border: solid 1px #FDC677;
+    color: #FDC677;
+    font-size: 14pt;
+    background-color: #D47A5F;
+    font-family: Kaisei Decol;
+    padding: .85rem 2.5rem;
+    border-radius: 6px;
+    margin: 2rem;
+}
+.footer_outer_shell ul{
+    list-style: none;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.footer_navigation{
+    color: white;
+}
+.footer_navigation h2{
+    color: #FDC677;
+    text-decoration: underline;
+}
+.footer_navigation li{
+    color: white;
+    text-decoration: underline;
+    padding: 1rem;
+}
+.footer_contact_info{
+    color: white;
+}
+.footer_contact_info h2{
+    color: #FDC677;
+    text-decoration: underline;
+}
+.footer_contact_info li{
+    color: white;
+    text-decoration: underline;
+    padding: 1rem;
+}
